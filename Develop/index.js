@@ -336,8 +336,16 @@ async function askMainQuestion() {
       })
       .then((response) => {
         console.log(response);
-      })
-      askMainQuestion();
+        try {
+        db.query(`INSERT INTO department (name)
+        SELECT
+        '${response.addDepartment}' AS name;`);
+
+        askMainQuestion();
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    });
       break;
     case 'Quit':
       console.log('Goodbye!');
