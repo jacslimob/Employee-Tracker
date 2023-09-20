@@ -4,17 +4,20 @@
                
   - To have an app that can keep track of employee info and other information
   - No need for paper files on employees
-  - 
+  - https://drive.google.com/file/d/1XNqmAuKVN-7y7nGxfpJeBaptjxouufkd/view
         
 ## Table of Contents        
         
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Contributing](#contributing) 
-- [Tests](#tests) 
-- [Questions](#questions)
+- [Employee Tracker](#employee-tracker)
+  - [Allows you to store employee information and access it from application](#allows-you-to-store-employee-information-and-access-it-from-application)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
         
 ## Installation
         
